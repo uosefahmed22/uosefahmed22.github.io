@@ -3,138 +3,405 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yousef Ahmed - Backend Developer</title>
+    <title>Youssef Ahmed - .NET Backend Developer</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <div class="container">
-        <h1>Yousef Ahmed</h1>
-        <p><strong>Backend Developer</strong> <span class="emoji">💻</span></p>
+    <div class="particles" id="particles"></div>
 
-        <div class="contact-info">
-            <div>📧 <a href="mailto:uosefahmed0022@gmail.com">uosefahmed0022@gmail.com</a></div>
-            <div>📍 Beni Suef, Egypt</div>
-            <div>📞 +201032043047</div>
-            <div>🔗 <a href="https://github.com/uosefahmed22" target="_blank">GitHub: uosefahmed22</a></div>
-            <div>🔗 <a href="https://www.linkedin.com/in/yousef-ahmed-175ab4268/" target="_blank">LinkedIn: Yousef Ahmed</a></div>
+    <header class="hero">
+        <div class="hero-content">
+            <div class="hero-avatar">
+                <span class="avatar-text">YA</span>
+                <div class="avatar-ring"></div>
+            </div>
+            <h1 class="hero-name">Youssef Ahmed</h1>
+            <p class="hero-title">.NET Backend Developer</p>
+            <p class="hero-subtitle">
+                <span class="location-badge">📍 Cairo, Egypt</span>
+                <span class="status-badge">🟢 Open to Relocation</span>
+                <span class="military-badge">✅ Military Service Completed</span>
+            </p>
+            <div class="hero-links">
+                <a href="mailto:uosefahmed0022@gmail.com" class="hero-link">
+                    <span class="link-icon">📧</span> Email
+                </a>
+                <a href="tel:+201032043047" class="hero-link">
+                    <span class="link-icon">📞</span> +20 1032043047
+                </a>
+                <a href="https://linkedin.com/in/youssef-ahmed-eg" target="_blank" class="hero-link">
+                    <span class="link-icon">💼</span> LinkedIn
+                </a>
+                <a href="https://github.com/uosefahmed22" target="_blank" class="hero-link">
+                    <span class="link-icon">🐙</span> GitHub
+                </a>
+            </div>
         </div>
+        <div class="scroll-indicator">
+            <span>↓</span>
+        </div>
+    </header>
 
-        <h2 class="section-title">Profile <span class="emoji">👨‍💼</span></h2>
-        <p>
-            Passionate and dedicated Backend Developer with over a year of experience in developing robust, scalable solutions for e-commerce and volunteer management platforms. Specialized in building microservices architectures, implementing message-driven systems, and enhancing user experience through innovative approaches. Skilled in .NET, C#, SQL, gRPC, and RabbitMQ, with a strong commitment to continuous learning and exploring cutting-edge technologies.
-        </p>
+    <main class="main-content">
 
-        <h2 class="section-title">Education <span class="emoji">🎓</span></h2>
-        <p>
-            <strong>Bachelor of Computer Science</strong> <br>
-            Faculty of Computer Science and Artificial Intelligence, Beni Suef University, Egypt<br>
-            2020 – 2024
-        </p>
+        <!-- Profile Summary -->
+        <section class="section reveal">
+            <div class="section-header">
+                <div class="section-icon">👨‍💻</div>
+                <h2>Profile Summary</h2>
+            </div>
+            <div class="profile-card">
+                <p>.NET Backend Developer with hands-on experience building scalable web APIs and e-commerce platforms using <strong>C#</strong>, <strong>ASP.NET Core</strong>, <strong>Entity Framework</strong>, and <strong>SQL Server</strong>. Delivered a freelance volunteer management system for a real client. Skilled in applying <strong>Clean Architecture</strong>, design patterns, and RESTful API best practices. Seeking a backend development role to contribute to impactful projects.</p>
+            </div>
+        </section>
 
-<h2 class="section-title">Technical Skills <span class="emoji">💻</span></h2>
-<div class="skills">
-    <div class="skill-item">C#</div>
-    <div class="skill-item">ASP.NET Web API</div>
-    <div class="skill-item">SQL Server</div>
-    <div class="skill-item">RESTful APIs</div>
-    <div class="skill-item">Git</div>
-    <div class="skill-item">OOP (Object-Oriented Programming)</div>
-    <div class="skill-item">Entity Framework</div>
-    <div class="skill-item">JWT Authentication</div>
-    <div class="skill-item">Redis</div>
-    <div class="skill-item">LINQ</div>
-    <div class="skill-item">SOLID Principles</div>
-    <div class="skill-item">Design Patterns</div>
-    <div class="skill-item">Problem Solving & Algorithms</div>
-    <div class="skill-item">Clean Code</div>
-    <div class="skill-item">Agile Methodologies</div>
-    <div class="skill-item">gRPC</div>
-    <div class="skill-item">RabbitMQ</div>
-</div>
+        <!-- Skills -->
+        <section class="section reveal">
+            <div class="section-header">
+                <div class="section-icon">⚡</div>
+                <h2>Technical Skills</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title"><span class="cat-icon">🔤</span> Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag lang">C#</span>
+                        <span class="skill-tag lang">SQL</span>
+                        <span class="skill-tag lang">JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title"><span class="cat-icon">🏗️</span> Frameworks</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag framework">ASP.NET Core Web API</span>
+                        <span class="skill-tag framework">Entity Framework Core</span>
+                        <span class="skill-tag framework">ASP.NET MVC</span>
+                        <span class="skill-tag framework">Angular (Basic)</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title"><span class="cat-icon">🗄️</span> Databases</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag db">SQL Server</span>
+                        <span class="skill-tag db">Redis</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title"><span class="cat-icon">🧩</span> Architecture & Concepts</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag arch">RESTful APIs</span>
+                        <span class="skill-tag arch">Clean Architecture</span>
+                        <span class="skill-tag arch">Design Patterns</span>
+                        <span class="skill-tag arch">SOLID Principles (OOP)</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title"><span class="cat-icon">🔒</span> Security</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag security">JWT Authentication</span>
+                        <span class="skill-tag security">Role-Based Access Control</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title"><span class="cat-icon">🛠️</span> Tools & Services</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag tool">Git</span>
+                        <span class="skill-tag tool">Cloudinary</span>
+                        <span class="skill-tag tool">Stripe</span>
+                        <span class="skill-tag tool">SMTP</span>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<h2 class="section-title">Soft Skills <span class="emoji">🤝</span></h2>
-<div class="soft-skills">
-    <div class="soft-skill-item">Problem Solving</div>
-    <div class="soft-skill-item">Communication</div>
-    <div class="soft-skill-item">Adaptability</div>
-    <div class="soft-skill-item">Team Collaboration</div>
-    <div class="soft-skill-item">Time Management</div>
-    <div class="soft-skill-item">Work Under Pressure</div>
-    <div class="soft-skill-item">Critical Thinking</div>
-    <div class="soft-skill-item">Mentoring & Leadership</div>
-    <div class="soft-skill-item">Creative Problem-Solving</div>
-</div>
+        <!-- Work Experience -->
+        <section class="section reveal">
+            <div class="section-header">
+                <div class="section-icon">💼</div>
+                <h2>Work Experience</h2>
+            </div>
+            <div class="experience-card">
+                <div class="exp-header">
+                    <div>
+                        <h3>GazlVoluntary</h3>
+                        <span class="exp-type">Freelance Project</span>
+                    </div>
+                    <div class="exp-date">
+                        <span class="date-badge">Jul 2024 – Aug 2024</span>
+                    </div>
+                </div>
+                <ul class="exp-list">
+                    <li>Engineered a comprehensive volunteer management platform, delivering a robust REST API alongside real-time notification services.</li>
+                    <li>Optimized database queries and architecture, successfully achieving a <strong>25% reduction in latency</strong> and contributing to a <strong>10% boost</strong> in user engagement.</li>
+                    <li>Implemented secure user authentication and Role-Based Access Control (RBAC) to ensure strict data privacy and access management.</li>
+                </ul>
+                <div class="tech-stack">
+                    <span class="tech-badge">.NET 8</span>
+                    <span class="tech-badge">RESTful API</span>
+                    <span class="tech-badge">SQL Server</span>
+                </div>
+                <a href="https://github.com/uosefahmed22/GazlVolunteer" target="_blank" class="repo-link">
+                    <span>🔗</span> View Repository
+                </a>
+            </div>
+        </section>
 
+        <!-- Projects -->
+        <section class="section reveal">
+            <div class="section-header">
+                <div class="section-icon">🚀</div>
+                <h2>Projects</h2>
+            </div>
 
- <h2 class="section-title">Certifications <span class="emoji">🏅</span></h2>
-    <div class="certification">
-        <strong>Information Technology Institute (ITI) Certification for Students</strong><br>
-        Completed a comprehensive program focused on backend development with modern tools and practices.<br>
-        <a href="https://drive.google.com/file/d/1TjUFkZs3FwuXNgJ8s_L2_2GLLa1z2c7s/view?usp=drive_link" target="_blank">View Certification</a>
-    </div>
+            <div class="project-card featured">
+                <div class="project-badge">🔥 Featured</div>
+                <div class="project-header">
+                    <h3>Burgandy Store</h3>
+                    <span class="project-subtitle">Fashion Brand Platform — <a href="#" class="live-demo-link">Live Demo</a></span>
+                </div>
+                <ul class="project-features">
+                    <li><strong>Built</strong> a full-stack reservation system utilizing a REST API backend, an MVC admin dashboard, and a responsive Angular frontend.</li>
+                    <li><strong>Structured</strong> the backend using Clean Architecture across 5 layers to guarantee high maintainability and strict separation of concerns.</li>
+                    <li><strong>Integrated</strong> JWT authentication and Cloudinary for image management, while delivering a mobile-first, RTL-ready UI with Server-Side Rendering (SSR).</li>
+                </ul>
+                <div class="tech-stack">
+                    <span class="tech-badge">.NET 10</span>
+                    <span class="tech-badge">Clean Architecture</span>
+                    <span class="tech-badge">MVC</span>
+                    <span class="tech-badge">Angular</span>
+                    <span class="tech-badge">Cloudinary</span>
+                </div>
+            </div>
 
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>ZadElealm</h3>
+                    <span class="project-subtitle">Educational Platform API — <a href="#" class="live-demo-link">Live Demo</a></span>
+                </div>
+                <ul class="project-features">
+                    <li><strong>Designed and developed</strong> the backend for an Islamic educational platform, featuring a RESTful API and an MVC admin dashboard for course management.</li>
+                    <li><strong>Adopted</strong> Onion Architecture principles to establish highly decoupled, testable layers and a maintainable codebase structure.</li>
+                    <li><strong>Incorporated</strong> JWT authentication, SMTP email alerts, and Cloudinary for media storage, alongside configuring CSRF protection and rate limiting.</li>
+                </ul>
+                <div class="tech-stack">
+                    <span class="tech-badge">.NET Core</span>
+                    <span class="tech-badge">Onion Architecture</span>
+                    <span class="tech-badge">MVC</span>
+                    <span class="tech-badge">JWT</span>
+                    <span class="tech-badge">Cloudinary</span>
+                    <span class="tech-badge">SMTP</span>
+                </div>
+                <a href="https://github.com/uosefahmed22/ZadElealam" target="_blank" class="repo-link">
+                    <span>🔗</span> View Repository
+                </a>
+            </div>
 
-        <h2 class="section-title">Freelancing Experience <span class="emoji">🌍</span></h2>
-<div class="freelance">
-    <strong>Volunteer Management Platform | GazlVoulantry</strong><br>
-    <em>July 2024 – August 2024</em><br>
-    Developed a robust volunteer management platform using .NET 8 and SQL Server. Integrated real-time notifications for immediate updates, maps for location-based services, and user authentication for secure access. Focused on scalability and security to manage a large number of users efficiently.<br>
-    <a href="https://github.com/uosefahmed22/GazlVolunteer" target="_blank">GitHub Repository</a>
-</div>
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>Gym Management System API</h3>
+                    <span class="project-subtitle">Full-featured Gym Operations API</span>
+                </div>
+                <ul class="project-features">
+                    <li><strong>Created</strong> a robust backend REST API to streamline gym operations, track memberships, and manage staff schedules efficiently.</li>
+                    <li><strong>Leveraged</strong> Clean Architecture principles to ensure system scalability, clear separation of concerns, and robust data integrity.</li>
+                    <li><strong>Configured</strong> SMTP for email verification and Cloudinary for media handling, in addition to implementing RBAC, refresh tokens, and soft delete functionality.</li>
+                </ul>
+                <div class="tech-stack">
+                    <span class="tech-badge">.NET 8</span>
+                    <span class="tech-badge">Clean Architecture</span>
+                    <span class="tech-badge">RESTful API</span>
+                    <span class="tech-badge">SMTP</span>
+                    <span class="tech-badge">Cloudinary</span>
+                </div>
+                <a href="https://github.com/uosefahmed22/GymMangamentSystem" target="_blank" class="repo-link">
+                    <span>🔗</span> View Repository
+                </a>
+            </div>
 
-<h2 class="section-title">Projects <span class="emoji">📂</span></h2>
-<div class="project">
-    <strong>BNS360</strong><br>
-    <em>March 2024 – April 2024</em><br>
-    Designed a system to manage business and craftsmen reviews, user profiles, and favorite management. Focused on secure user authentication using JWT tokens and built a scalable database architecture with SQL Server. Implemented features to track user feedback, ratings, and reviews.<br>
-    <a href="https://github.com/uosefahmed22/BNS360" target="_blank">GitHub Repository</a>
-</div>
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>BNS360</h3>
+                    <span class="project-subtitle">Graduation Project</span>
+                </div>
+                <ul class="project-features">
+                    <li><strong>Developed</strong> a secure backend platform encompassing a REST API for managing business ratings, reviews, and user profiles.</li>
+                    <li><strong>Streamlined</strong> CRUD operations to ensure highly efficient data retrieval and fast processing of detailed review summaries.</li>
+                    <li><strong>Established</strong> robust authentication mechanisms and built comprehensive features for job saving and user profile management.</li>
+                </ul>
+                <div class="tech-stack">
+                    <span class="tech-badge">.NET Core</span>
+                    <span class="tech-badge">RESTful API</span>
+                    <span class="tech-badge">SQL Server</span>
+                </div>
+                <a href="https://github.com/uosefahmed22/BNS360" target="_blank" class="repo-link">
+                    <span>🔗</span> View Repository
+                </a>
+            </div>
 
-<div class="project">
-    <strong>E-commerce Platform | Talabat Project</strong><br>
-    <em>August 2023 – October 2023</em><br>
-    Developed a feature-rich e-commerce platform integrating Stripe for secure payments. Optimized database performance with Redis caching, ensuring fast transaction processing and seamless shopping experience. Built-in search and filter capabilities for products and implemented role-based access control.<br>
-    <a href="https://github.com/uosefahmed22/talabat.solution" target="_blank">GitHub Repository</a>
-</div>
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>Talabat</h3>
+                    <span class="project-subtitle">E-commerce Platform</span>
+                </div>
+                <ul class="project-features">
+                    <li><strong>Constructed</strong> a fully functional e-commerce backend driving a comprehensive product catalog and a secure checkout system.</li>
+                    <li><strong>Refined</strong> database indexing and optimized queries, successfully enhancing overall system efficiency by <strong>20%</strong>.</li>
+                    <li><strong>Orchestrated</strong> Stripe integration for secure payment processing and utilized Redis caching to enable highly efficient shopping basket management.</li>
+                </ul>
+                <div class="tech-stack">
+                    <span class="tech-badge">ASP.NET Core</span>
+                    <span class="tech-badge">Redis</span>
+                    <span class="tech-badge">Stripe</span>
+                    <span class="tech-badge">SQL Server</span>
+                </div>
+                <a href="https://github.com/uosefahmed22/talabat.solution" target="_blank" class="repo-link">
+                    <span>🔗</span> View Repository
+                </a>
+            </div>
+        </section>
 
-<div class="project">
-    <strong>Gym Management System API</strong><br>
-    <em>March 2024 – May 2024</em><br>
-    Developed an API for managing gym operations, handling multiple user roles (admin, trainer, and customer). Integrated Cloudinary for image uploads, BMI tracking for health metrics, and used refresh tokens for secure, long-term sessions. Focused on performance and scalability for managing large gym memberships.<br>
-    <a href="https://github.com/uosefahmed22/GymMangamentSystem" target="_blank">GitHub Repository</a>
-</div>
+        <!-- Advanced Projects -->
+        <section class="section reveal">
+            <div class="section-header">
+                <div class="section-icon">🔬</div>
+                <h2>Advanced Technology Projects</h2>
+            </div>
 
-<div class="project">
-    <strong>Zad Elealam</strong><br>
-    <em>September 2024</em><br>
-    A platform designed for educational content distribution, integrating user role management (teachers and students), tracking progress, and providing feedback. The project includes scalable database architecture, optimized queries for high performance, and real-time notifications for course updates.<br>
-    <a href="https://github.com/uosefahmed22/ZadElealam" target="_blank">GitHub Repository</a>
-</div>
+            <div class="project-card advanced">
+                <div class="project-badge advanced-badge">⚡ Advanced</div>
+                <div class="project-header">
+                    <h3>Ordering System Using gRPC</h3>
+                    <span class="project-subtitle">High-Performance Inter-Service Communication</span>
+                </div>
+                <p class="project-desc">Built a high-performance ordering system using gRPC for inter-service communication. Implemented Protocol Buffers for efficient data serialization with bi-directional streaming for real-time order updates. Achieved <strong>40% faster response times</strong> through efficient binary serialization and HTTP/2 protocol advantages.</p>
+                <div class="tech-stack">
+                    <span class="tech-badge">gRPC</span>
+                    <span class="tech-badge">Protocol Buffers</span>
+                    <span class="tech-badge">HTTP/2</span>
+                    <span class="tech-badge">.NET</span>
+                </div>
+                <a href="https://github.com/uosefahmed22/OrderingSystemUsingGRPC" target="_blank" class="repo-link">
+                    <span>🔗</span> View Repository
+                </a>
+            </div>
 
-<h2 class="section-title">Advanced Technology Projects <span class="emoji">🚀</span></h2>
-<div class="project">
-    <strong>Ordering System Using gRPC</strong><br>
-    <em>March 2025</em><br>
-    Built a high-performance ordering system using gRPC for inter-service communication. Implemented service-to-service communication with Protocol Buffers for efficient data serialization. The system features bi-directional streaming for real-time order updates, authentication using interceptors, and significantly improved performance compared to traditional REST APIs. Achieved 40% faster response times through efficient binary serialization and HTTP/2 protocol advantages.<br>
-    <a href="https://github.com/uosefahmed22/OrderingSystemUsingGRPC" target="_blank">GitHub Repository</a>
-</div>
+            <div class="project-card advanced">
+                <div class="project-badge advanced-badge">⚡ Advanced</div>
+                <div class="project-header">
+                    <h3>Notification System Using RabbitMQ</h3>
+                    <span class="project-subtitle">Event-Driven Message Processing</span>
+                </div>
+                <p class="project-desc">Developed an event-driven notification system using RabbitMQ for asynchronous message processing. Features dead letter queues, priority-based routing, and retry mechanisms. Handles thousands of concurrent notifications with guaranteed delivery and monitoring capabilities.</p>
+                <div class="tech-stack">
+                    <span class="tech-badge">RabbitMQ</span>
+                    <span class="tech-badge">Event-Driven</span>
+                    <span class="tech-badge">Message Queuing</span>
+                    <span class="tech-badge">.NET</span>
+                </div>
+                <a href="https://github.com/uosefahmed22/NotificationSystemUsingRabbitMq" target="_blank" class="repo-link">
+                    <span>🔗</span> View Repository
+                </a>
+            </div>
+        </section>
 
-<div class="project">
-    <strong>Notification System Using RabbitMQ</strong><br>
-    <em>March 2025</em><br>
-    Developed an event-driven notification system using RabbitMQ for asynchronous message processing. Implemented message queuing patterns for reliable notification delivery, dead letter queues for failed message handling, and priority-based routing for critical notifications. The system can handle thousands of concurrent notifications with guaranteed delivery and includes retry mechanisms for resilience. Built monitoring capabilities to track queue health and message throughput.<br>
-    <a href="https://github.com/uosefahmed22/NotificationSystemUsingRabbitMq" target="_blank">GitHub Repository</a>
-</div>
+        <!-- Education -->
+        <section class="section reveal">
+            <div class="section-header">
+                <div class="section-icon">🎓</div>
+                <h2>Education</h2>
+            </div>
+            <div class="education-card">
+                <div class="edu-item">
+                    <div class="edu-header">
+                        <h3>Bachelor of Computer Science</h3>
+                        <span class="edu-date">2020 – 2024</span>
+                    </div>
+                    <p class="edu-institution">Faculty of Computer Science and Artificial Intelligence, Beni Suef University</p>
+                    <span class="grade-badge">Grade: Very Good</span>
+                </div>
+                <div class="edu-divider"></div>
+                <div class="edu-item">
+                    <div class="edu-header">
+                        <h3>Information Technology Institute (ITI)</h3>
+                        <span class="edu-date">27 Aug 2023 – 21 Sep 2023</span>
+                    </div>
+                    <p class="edu-institution">Summer Training (120 Hours) — .NET Backend Developer</p>
+                </div>
+            </div>
+        </section>
 
-        <h2 class="section-title">Languages <span class="emoji">🗣️</span></h2>
-        <ul>
-            <li><strong>Arabic:</strong> Fluent</li>
-            <li><strong>English:</strong> Proficient</li>
-        </ul>
+        <!-- Languages -->
+        <section class="section reveal">
+            <div class="section-header">
+                <div class="section-icon">🗣️</div>
+                <h2>Languages</h2>
+            </div>
+            <div class="languages-grid">
+                <div class="lang-card">
+                    <span class="lang-name">Arabic</span>
+                    <div class="lang-bar">
+                        <div class="lang-fill" style="width: 100%"></div>
+                    </div>
+                    <span class="lang-level">Fluent</span>
+                </div>
+                <div class="lang-card">
+                    <span class="lang-name">English</span>
+                    <div class="lang-bar">
+                        <div class="lang-fill" style="width: 80%"></div>
+                    </div>
+                    <span class="lang-level">Proficient</span>
+                </div>
+            </div>
+        </section>
 
-        <a href="mailto:uosefahmed0022@gmail.com" class="contact-link">Contact Me 📧</a>
-    </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <h2>Let's Build Something Amazing Together</h2>
+            <p>I'm always open to discussing new projects and opportunities.</p>
+            <a href="mailto:uosefahmed0022@gmail.com" class="cta-button">
+                <span>📧</span> Get In Touch
+            </a>
+            <div class="footer-links">
+                <a href="https://github.com/uosefahmed22" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/youssef-ahmed-eg" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const revealElements = document.querySelectorAll('.reveal');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('revealed');
+                }
+            });
+        }, { threshold: 0.1 });
+        revealElements.forEach(el => observer.observe(el));
+
+        function createParticles() {
+            const container = document.getElementById('particles');
+            for (let i = 0; i < 30; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.animationDelay = Math.random() * 20 + 's';
+                particle.style.animationDuration = (15 + Math.random() * 20) + 's';
+                particle.style.width = particle.style.height = (3 + Math.random() * 6) + 'px';
+                container.appendChild(particle);
+            }
+        }
+        createParticles();
+
+        document.querySelector('.scroll-indicator')?.addEventListener('click', () => {
+            document.querySelector('.main-content').scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
 
 </body>
 </html>
